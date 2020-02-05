@@ -10,12 +10,6 @@ public class XMLData {
 	
 	public static String JDBCDRIVER = "com.mysql.jdbc.Driver"; // jdbc驱动
 	
-//	public static String JDBCURL = "jdbc:mysql://10.10.56.170:3306/crossbusi";
-//	
-//	public static String JDBCUSERNAME = "ucrbusia"; // jdbc账号
-//
-//	public static String JDBCPASSWORD = "ucrbusia"; // jdbc密码
-	
 	public static String JDBCURL = "jdbc:mysql://127.0.0.1:3306/umf";
 	
 	public static String JDBCUSERNAME = "root"; // jdbc账号
@@ -24,20 +18,19 @@ public class XMLData {
 	
 	public static String FTLNAME = "mail.ftl"; // 邮件模板文件地址
 	
-	public static String SENDERACCOUNT = "kuajing1@umfintech.com"; // 发件人账户名
+	public static String SENDERACCOUNT = "1111@11111.com"; // 发件人账户名
 	
-	public static String SENDERPASSWORD = "heY&r%H&pZ"; // 发件人账户名密码
+	public static String SENDERPASSWORD = "111111"; // 发件人账户名密码
 	
-	public static String SENDERADDRESS = "kuajing1@umfintech.com"; // 发件人地址
+	public static String SENDERADDRESS = "111@111.com"; // 发件人地址
 	
-//	public static String[] recipientTOAddresses = {"kuajingdev@umfintech.com","cbop@umfintech.com","wangsisi@umfintech.com"}; // 收件人地址   发送
-	public static String[] recipientTOAddresses = {"liujiayu1@umfintech.com"}; // 收件人地址   发送
+	public static String[] recipientTOAddresses = {"111@111.com"}; // 收件人地址   发送
 	
 	public static String[] recipientCCAddresses = {}; // 收件人地址   抄送 
 	
 	public static String SUBJECTNAME = "银行汇率自动抓取"; // 邮件主题
 	
-	public static String MAILSMTPHOST = "smtp.umfintech.com"; // 发件人的SMTP服务器地址
+	public static String MAILSMTPHOST = "smtp.111.com"; // 发件人的SMTP服务器地址
 	
 	public static int FIRSTJOBCYCLETIME = 24; // 第一个定时任务循环时间  小时单位
 	
